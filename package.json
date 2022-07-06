@@ -38,6 +38,8 @@
     "tsparticles-updater-wobble": "^2.1.0",
     "@openzeppelin/contracts": "^4.6.0",
     "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@rainbow-me/rainbowkit": "^0.3.4",
+    "wagmi": "^0.4.12"
   },
   "devDependencies": {
     "@types/node": "18.0.0",
