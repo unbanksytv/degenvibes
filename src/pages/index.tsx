@@ -20,7 +20,6 @@ const Home: NextPage = () => {
       >
         {/* Mint a new NFT */}
         <div className={styles.optionSelectBox}>
-          <img src={`/icons/drop.webp`} alt="drop" />
           <h2 className={styles.selectBoxTitle}>Mint a new NFT</h2>
           <p className={styles.selectBoxDescription}>
             Use the NFT Drop Contract to claim an NFT from the GVO collection.
@@ -32,7 +31,6 @@ const Home: NextPage = () => {
           role="button"
           onClick={() => router.push(`/stake`)}
         >
-          <img src={`/icons/token.webp`} alt="drop" />
           <h2 className={styles.selectBoxTitle}>Stake Your NFTs</h2>
           <p className={styles.selectBoxDescription}>
             Use the custom staking contract deployed via <b>thirdweb Deploy</b>{" "}
