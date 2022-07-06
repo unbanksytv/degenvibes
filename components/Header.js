@@ -1,5 +1,3 @@
-30 lines (26 sloc)  480 Bytes
-
 import tw from "tailwind-styled-components";
 import Image from "next/image";
 import logo from "../assets/LTL_V2-02.png";
