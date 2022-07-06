@@ -2,11 +2,6 @@ import Head from "next/head";
 import tw from "tailwind-styled-components";
 import Script from "next/script";
 
-// Components
-import Header from "../components/Header";
-import SuccessfulMint from "../components/SuccessfulMint";
-import Footer from "../components/Footer";
-
 export default function Success() {
   return (
     <Container>
@@ -19,9 +14,6 @@ export default function Success() {
         id="tailwind"
         src="https://cdn.tailwindcss.com"
       />
-      <Header />
-      <SuccessfulMint />
-      <Footer />
     </Container>
   )
 }

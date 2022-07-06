@@ -2,11 +2,6 @@ import Head from "next/head";
 import tw from "tailwind-styled-components";
 import Script from "next/script";
 
-// Components
-import Header from "../components/Header";
-import View from "../components/View";
-import Footer from "../components/Footer";
-
 export default function ViewNFT() {
   return (
     <Container>
@@ -19,9 +14,6 @@ export default function ViewNFT() {
         id="tailwind"
         src="https://cdn.tailwindcss.com"
       />
-      <Header />
-      <View />
-      <Footer />
     </Container>
   )
 }
